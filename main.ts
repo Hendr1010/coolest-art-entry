@@ -1,12 +1,13 @@
-// coolest-art-01 entry: copy the bundled art to /output/entry.png.
+// coolest-art-01 entry (v2): copy the bundled art to /output/entry.png.
 // The picture is a JPEG stored in a file named entry.png (the gate tells PNG
 // from JPEG by its first bytes), so the copy is byte for byte and fully
 // deterministic: two runs write the same bytes. Standard library only.
 //
-// The picture: a majestic glowing koi dragon, gold and teal scales, soaring
-// over a neon-lit city at night in the rain, mist and neon reflections on
-// the wet streets below, epic fantasy digital art.
-
+// The picture (v2, cuter): a chubby baby dragon with huge sparkly amber
+// eyes, tiny golden horns and rosy cheeks, joyfully riding a glowing teal
+// koi fish through the sky above a neon-lit rainy city at night, rainbow
+// reflections, floating pink hearts and golden sparkles, waving one tiny
+// paw at the viewer, big smile, vibrant gold and teal colors.
 import { copyFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 
